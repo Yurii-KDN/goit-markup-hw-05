@@ -219,7 +219,6 @@ body {
   bottom: 0;
 
   background-color: var(--color-navy-blue-modal);
-  /* opacity: 40%; */
 }
 
 .is-hidden {
