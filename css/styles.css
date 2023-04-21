@@ -493,6 +493,30 @@ body {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
+.portfolio-box {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 360px;
+  margin: 0;
+  padding-top: 40px;
+  padding-right: 32px;
+  padding-left: 32px;
+
+  background-color: var(--color-iris);
+}
+
+.overlay-label {
+  color: var(--color-cloud);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .portfolio-card-content {
   border: 1px solid;
   border-color: var(--color-cornflower);
