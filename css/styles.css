@@ -210,6 +210,61 @@ body {
   background-color: var(--color-ocean);
 }
 
+/* Modal styles */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: var(--color-navy-blue-modal);
+  /* opacity: 40%; */
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 408px;
+  min-height: 584px;
+  padding: 24px;
+
+  background-color: var(--color-dairy);
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+}
+.modal-btn {
+  display: flex;
+  margin-left: auto;
+  padding: 7px;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border: solid 1px;
+  border-radius: 50%;
+  border-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--color-cornflower);
+  color: var(--color-navy-blue);
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus,
+.modal-btn:active {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+
+.modal-icon {
+  fill: currentColor;
+}
+
 /* Our features styles*/
 
 .visually-hidden {
