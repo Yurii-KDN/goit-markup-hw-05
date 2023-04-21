@@ -7,7 +7,7 @@
   --color-light-slate: #8e8f99;
   --color-cornflower: #e7e9fc;
   --color-cloud: #f4f4fd;
-  --color-navy-blue-modal: #2e2f42;
+  --color-navy-blue-modal: rgba(46, 47, 66, 0.4);
   --color-grey: #2e2f42;
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
@@ -220,6 +220,12 @@ body {
 
   background-color: var(--color-navy-blue-modal);
   /* opacity: 40%; */
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .modal {
